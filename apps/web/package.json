@@ -4,9 +4,9 @@
   "private": true,
   "license": "Apache-2.0",
   "scripts": {
-    "dev": "next dev -p 3000",
-    "build": "next build",
-    "start": "next start -p 3000",
+    "dev": "node init && next dev -p 3000",
+    "build": "node init && next build",
+    "start": "node init && next start -p 3000",
     "typecheck": "tsc --noEmit",
     "lint": "eslint . --config ../../eslint.config.js",
     "docs:generate": "node --experimental-strip-types scripts/generate-api-docs.mts",
