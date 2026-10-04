@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-508-document-how-to-read-a-contract-diagram",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-508-document-how-to-read-a-contract-diagram": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-508-document-how-to-read-a-contract-diagram",
+    "origin"
+  ]
+}
